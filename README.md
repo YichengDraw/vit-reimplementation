@@ -1,4 +1,15 @@
-# Vision Transformer
+# Vision Transformer Reimplementation
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+From-scratch ViT-B/16 training in PyTorch, plus paper-style visualization reproduction for the original Vision Transformer figures.
+
+- Best reported ImageNet top-1 accuracy: `75.14%`
+- Includes training code, figure reproduction code, sample images, and generated outputs
+
+![Attention rollout preview](vit_figures/fig6_attention_rollout.png)
 
 This repository contains two closely related parts:
 
@@ -275,3 +286,7 @@ This is an intentional practical choice for figure quality, not an attempt to cl
 
 - Dosovitskiy et al., *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale*
 - Abnar and Zuidema, *Quantifying Attention Flow in Transformers*
+
+## License
+
+This project is released under the MIT License. See `LICENSE` for details.
