@@ -73,6 +73,12 @@ The repository keeps the whole model and training loop in one file on purpose so
 
 `vit_figures/vit_visualizations.py` reproduces several classic ViT analyses, including embedding filters, positional similarity, mean attention distance, and attention rollout.
 
+## Visual Summary
+
+![Attention rollout preview](vit_figures/fig6_attention_rollout.png)
+
+This figure makes the model behavior easier to read than raw predictions alone. The attention rollout highlights where the output token is focusing in the image, and in these examples the strongest responses stay on the main object while the background is suppressed.
+
 ## License
 
 MIT
